@@ -4,57 +4,70 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="/">WebStudio</a>
+        <a href="./index.html"
+          ><span class="logo-blue">Web</span><span class="logo">Studio</span></a
+        >
         <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a class="links" href="">Студия</a></li>
+          <li><a class="links" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="links" href="">Контакты</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a class="contacts" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <!--main-->
     <main>
       <!--section button-->
       <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+        <h1 class="hero">Эффективные решения для вашего бизнеса</h1>
+        <button class="button">Заказать услугу</button>
       </section>
       <!--section advantages-->
       <section>
         <h2>Преимущества</h2>
         <ul>
           <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="benefits">Внимание к деталям</h3>
+            <p class="benefits-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="benefits">Пунктуальность</h3>
+            <p class="benefits-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="benefits">Планирование</h3>
+            <p class="benefits-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="benefits">Современные технологии</h3>
+            <p class="benefits-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -63,7 +76,7 @@
       </section>
       <!--section what we work-->
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="pictures-header">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img src="./img/foto1.jpg" alt="Человек набирает код" width="370" />
@@ -82,38 +95,46 @@
       </section>
       <!--section team-->
       <section>
-        <h2>Наша команда</h2>
+        <h2 class="pictures-header">Наша команда</h2>
         <ul>
           <li>
             <img src="./img/foto4.jpg" alt="Фото Игоря" width="270" />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="team">Игорь Демьяненко</h3>
+            <p class="positions">Product Designer</p>
           </li>
           <li>
             <img src="./img/foto5.jpg" alt="Фото Ольги" width="270" />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team">Ольга Репина</h3>
+            <p class="positions">Frontend Developer</p>
           </li>
           <li>
             <img src="./img/foto6.jpg" alt="Фото Николая" width="270" />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="team">Николай Тарасов</h3>
+            <p class="positions">Marketing</p>
           </li>
           <li>
             <img src="./img/foto7.jpg" alt="Фото Михаила" width="270" />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="team">Михаил Ермаков</h3>
+            <p class="positions">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!--footer-->
     <footer>
-      <a href="/">WebStudio</a>
-      <address>г. Киев, пр-т Леси Украинки, 26</address>
+      <a href="./index.html"
+        ><span class="logo-blue">Web</span><span class="logo-f">Studio</span></a
+      >
+      <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a class="email-tel" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="email-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </footer>
   </body>
